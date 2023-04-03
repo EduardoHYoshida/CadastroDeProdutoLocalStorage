@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+}
+
+#txtNomeProduto{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+
+#txtCodProduto{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+
+#qtidadeProduto{
+    height: 30px;
+}
+
+#btnCadastrar{
+    height: 40px;
+    width: 100px;
+    border-radius: 20%;
+}
+
+#btnVerEstoque{
+    height: 40px;
+    width: 100px;
+    border-radius: 20%;
+}
+
+#btnLimpar{
+    height: 40px;
+    width: 100px;
+    border-radius: 20%;
+}
